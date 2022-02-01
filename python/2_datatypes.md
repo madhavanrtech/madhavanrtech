@@ -39,8 +39,53 @@ print(f"My first name is {firstname}. My family name is {surname}")
 
 ## Numbers
 
-## Integers
+### Integers
 An integer is a whole number such as 50. The data type integer is abbreviated to int.
 
-## Floating point numbers
+### Floating point numbers
 A floating point number is a number followed by a decimal point such as 50.5.
+
+## Dictionaries
+
+A dictionary is a way of storing related information in key-value pairs. It uses a key as an identifier and a value to store the information. For example, the key could be first_name and the value could be Ada.
+
+A dictionary when written in python would look like {"first_name":"Ada"}. A dictionary in python is abbreviated to dict and has the following syntax {"key":"value"}. The key is a string providing an identifier and the value can be the same kind of values you would store in a variable.
+
+Dictionaries are very common in AWS, so you will see them frequently.
+
+They are used to exchange information between different services and functions
+They are returned by Application Programming Interfaces (API)
+They are used as Tag values
+
+
+## Lists
+
+A list is an ordered sequence of values separated by spaces. For example:
+
+[0,1,2,3,4]
+
+or
+
+["apples","oranges","bananas"]
+
+A list can contain other objects, for example dictionaries, which we learned about in the last lesson. For example:
+
+[{"fruit_type":"apples"},{"number":50}]
+
+# Determining Type
+
+Sometimes your code will raise a TypeError. These can be frustrating to fix. The first step is often to find out what type of data python thinks the object is.
+
+The way to find out what type of data python has stored in a variable is to use the type() method.
+
+```
+>>>my_variable = "A string"
+>>>print(type(my_variable))
+```
+
+This should return:
+
+```
+<class 'str'>
+
+```
