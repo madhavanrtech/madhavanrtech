@@ -43,3 +43,10 @@ deactivate
 # Table of Contents
 1. [Variables](1_variables.md)
 2. [Data Types](2_datatypes.md)
+3. [Functions](3_functions.md) - To Do
+4. [Arguments & Parameters](4_arguments_parameters.md) - To Do
+5. [Inputs](5_Inputs.md) - To Do
+6. [Loops](6_Loops.md) - To Do
+7. [Conditions](7_Conditions.md) - To Do
+8. [Logging](8_Logging.md) - To Do
+9. [Errors & Exceptions](9_Errors.md) - To Do
