@@ -41,5 +41,5 @@ deactivate
 ```
 
 # Table of Contents
-1. [Variables](#1_variables.md)
-2. [Data Types](#2_datatypes.md)
+1. [Variables](1_variables.md)
+2. [Data Types](2_datatypes.md)
