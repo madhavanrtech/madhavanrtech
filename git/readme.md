@@ -35,3 +35,9 @@ git log --oneline --decorate
 
 git log --graph --decorate --date=short
 ```
+
+- Diff the file from your repo and remote repo
+
+```
+git diff
+```
