@@ -17,3 +17,11 @@ def hello_world():
 hello_world()
 
 ```
+
+To run the program, enter the following command in the terminal:
+
+```
+python lab_1_hello_world.py
+```
+
+This should return hello world.
